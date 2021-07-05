@@ -5,6 +5,7 @@ jobs:
       - image: circleci/node:erbium-browsers
 
     working_directory: ~/ci-test
+
     steps:
       - checkout
 
